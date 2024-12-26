@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocketIO_chat</title>
+    <script src="/socket"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1 id="name">チャットアプリ</h1>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <!-- メッセージはここに追加される -->
+        </div>
+        <div class="chat-footer">
+            <input type="text" class="message-input" id="messageInput" placeholder="メッセージを入力...">
+            <button class="send-button" id="sendButton">送信</button>
+        </div>
+    </div>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
